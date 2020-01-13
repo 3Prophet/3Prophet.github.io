@@ -1,13 +1,220 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Document</title>
-  </head>
-  <body>
-    <h1>Hello World</h1>
-    <p>I am hosted with GitHub Pages</p>
-  </body>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            overflow: auto;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        #cv {
+            border: 1px solid black;
+            border-radius: 5px;
+            width: 800px;
+            margin: auto;
+            padding: 20px 40px;
+            line-height: 1.5em;
+            background-color:#e9f0f2;
+            margin-top: 10px;
+            margin-bottom: 10px;
+
+        }
+
+        section {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            background-color:#f0f6f7;
+            border-radius: 5px;
+            padding: 5px 25px;
+        }
+
+        section h3 {
+            margin-bottom: 10px;
+            color:#191475;
+        }
+
+        section ul {
+            margin-left: 20px;
+        }
+
+        article {
+            margin: 10px 0px;
+        }
+
+        .inline li {
+            display: inline;
+            margin-right: 20px;
+        }
+        #cv_header {
+            float: center;
+        }
+        #cv_image {
+            float: left;
+        }
+        #cv_title {
+            float:left;
+        }
+        #cv_header_name {
+            font-weight: bold;
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+        #cv_header_title {
+            font-style: italic;
+            font-size: 1.5em;
+        }
+        img {
+            border-radius: 50%;
+        }
+        .emph {
+            font-style: italic;
+        }
+        .bold {
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="cv">
+        <header>
+            <span id="cv_header">
+                <div id="cv_header_name">Dmitry Logvinovich</div>
+            </span>
+            <span id="cv_image">
+                <img src="https://media.licdn.com/dms/image/C5603AQGW70RjBxG7Ag/profile-displayphoto-shrink_100_100/0?e=1580342400&v=beta&t=nhN4pee-mrp6n3uLfcP7WXv-nKMvWoFH3pTFZO92Iu4"
+                    alt="">
+            </span>
+            <span id="cv_title">
+                <div id="cv_header_title">Curriculum Vitae</div>
+                <div>dlogvinovich@yahoo.com<br>+41 76 205 11 91</div>
+            </span>
+                
+        </header>
+        <main>
+            <section>
+                <h3>Summary</h3>
+                <p>
+                    <strong>Profession: </strong>Full Stack Software Engineer. <strong>Programming experience: </strong>8 Years.
+                    <br>
+                    <strong>Age: </strong>37. <strong>Marital status: </strong>married, daughter Anna (6 years old).<br>
+                    <strong>Nationalities: </strong>Belarus, Switzerland.
+                    <strong>Residence: </strong>Switzerland
+                </p>
+            </section>
+            <section>
+                <h3>IT skills</h3>
+                <article>
+                    <h4>Technologies</h3>
+                        <ul>
+                            <li>Java(Spring Boot, JPA, Spring Cloud), Angular (RxJs), Python</li>
+                            <li>HTML5/CSS3</li>
+                            <li>SQL</li>
+                            <li>Vagrant, Docker</li>
+                        </ul>
+                </article>
+                <article>
+                    <h4>Skills</h3>
+                        <ul>
+                            <li>Design/Enterprise patterns</li>
+                            <li>Database design</li>
+                            <li>IT processes</li>
+                        </ul>
+                </article>
+            </section>
+            <section>
+                <h3>Education</h3>
+                <ul>
+                    <li>
+                        <strong>2017-2019: </strong>
+                        MAS in Computer Science, 
+                        <em>ZHAW School of Engineering, </em>
+                        Zürich, Switzerland
+                    </li>
+                    <li>
+                        <strong>2004-2008: </strong>
+                        Ph.D. in Chemistry,  
+                        <em>University of Augsburg, </em>Augsburg, Germany
+                    </li>
+                    <li>
+                        <strong>1999-2004: </strong>
+                        Diploma in Chemistry,  
+                        <em>Belarusian State University, </em>
+                        Minsk, Belarus
+                    </li>
+                </ul>
+            </section>
+            <section>
+                <h3>Professional Experience</h3>
+                <article>
+                    <div><strong>July 2019 - Present</strong></div>
+                    <div>Full Stack Software Developer</div>
+                    <div><em>APT Treuhand Gmbh, </em>Suhr, Swizerland</div>
+                </article>
+                <article>
+                    <div><strong>Dec. 2017 - May 2019</strong></div>
+                    <div>Internship at Java Team</div>
+                    <div><em>Supercomputing Systems</em>, Zürich, Swizterland</div>
+                </article>
+                <article>
+                    <div><strong>Oct. 2016 - Okt. 2017</strong></div>
+                    <div>Junior Software Developer</div>
+                    <div><em>Packimpex Ltd. </em> Thörishaus, Switzerland</div>
+                </article>
+                <article>
+                    <div><strong>Mar. 2010 - Dec. 2015</strong></div>
+                    <div>Postdoctoral Researcher / Senior Scientific Assistant</div>
+                    <div><em>Laboratory of Crystallography, </em>ETH Zürich, Switzerland</div>
+                </article>
+                <article>
+                    <div><strong>Oct. 2008 - Oct. 2010</strong></div>
+                    <div>Postdoctoral Researcher</div>
+                    <div><em>Laboratory of Crystallogrphy, </em>EPFL Lausanne, Switzerland</div>
+                </article>
+                <article>
+                    <div><strong>Oct. 2004 - Sept. 2008</strong></div>
+                    <div>Doctoral Student</div>
+                    <div><em>Laboratory of Solid State Chemistry, </em>EMPA Dübendorf, Switzerland</div>
+                </article>
+            </section>
+            <section>
+                <h3>Languages</h3>
+                <ul class="inline">
+                    <li>English</li>
+                    <li>German</li>
+                    <li>French</li>
+                    <li>Belarusian</li>
+                    <li>Russian</li>
+                </ul>
+            </section>
+            <section>
+                <h3>Hobbies</h3>
+                <ul class="inline">
+                    <li>Reading</li>
+                    <li>Music</li>
+                    <li>Travelling</li>
+                    <li>Cooking</li>
+                </ul>
+            </section>
+        </main>
+        <footer>
+
+        </footer>
+    </div>
+</body>
+
 </html>
